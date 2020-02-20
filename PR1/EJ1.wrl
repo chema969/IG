@@ -303,7 +303,36 @@ Shape {
 	}
 	geometry Cone {
 		height 16
+		bottomRadius 1.5
+		side TRUE
+		bottom TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 0.6 0
+		}
+	}
+	geometry Cone {
+		height 11
 		bottomRadius 1.8
+		side TRUE
+		bottom TRUE
+	}
+}
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 0 0.6
+		}
+	}
+	geometry Cone {
+		height 9
+		bottomRadius 2
 		side TRUE
 		bottom TRUE
 	}
@@ -318,7 +347,7 @@ Shape {
 	}
 	geometry Cone {
 		height 32
-		bottomRadius 0.7
+		bottomRadius 0.9
 		side TRUE
 		bottom TRUE
 	}
@@ -327,12 +356,12 @@ Shape {
 Shape {
 	appearance Appearance {
 		material Material {
-			diffuseColor 0.6 0 0
+			diffuseColor 0.6 0.9 0.3
 		}
 	}
 	geometry Cone {
 		height 35
-		bottomRadius 0.5
+		bottomRadius 0.8
 		side TRUE
 		bottom TRUE
 	}
