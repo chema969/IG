@@ -1,0 +1,357 @@
+#VRML V2.0 utf8
+
+#
+#CILINDROS
+#
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 1
+		}
+	}
+	geometry Cylinder {
+		height 10.4
+		radius 1
+		side TRUE
+		bottom FALSE
+		top TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 1 1
+		}
+	}
+	geometry Cylinder {
+		height 1.6
+		radius 5
+		side TRUE
+		bottom TRUE
+		top TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 0 1
+		}
+	}
+	geometry Cylinder {
+		height 1
+		radius 10.4
+		side TRUE
+		bottom TRUE
+		top TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+	}
+	geometry Cylinder {
+		height 30
+		radius 0.2
+		side TRUE
+		bottom TRUE
+		top TRUE
+	}
+}
+
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 1 1
+		}
+	}
+	geometry Cylinder {
+		height 0.1
+		radius 20
+		side TRUE
+		bottom TRUE
+		top TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 1
+		}
+	}
+	geometry Cylinder {
+		height 0.21
+		radius 15
+		side TRUE
+		bottom TRUE
+		top TRUE
+	}
+}
+
+#ESFERA
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 1
+		}
+	}
+	geometry Sphere {
+		radius 3.5
+	}
+}
+
+
+#CAJAS
+
+Shape {
+	appearance Appearance {
+		material Material {
+		}
+	}
+	geometry Box {
+		size 4.0 4.0 8.0
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+		}
+	}
+	geometry Box {
+		size 1.0 18.0 1.0
+	}
+}
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0.8 1
+		}
+	}
+	geometry Box {
+		size 4.0 8.0 4.0
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 1 0
+		}
+	}
+	geometry Box {
+		size 8.0 4.0 4.0
+	}
+}
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 1 0
+		}
+	}
+	geometry Box {
+		size 20.0 0.5 20.0
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0.5 0
+		}
+	}
+	geometry Box {
+		size 24.0 0.4 1.5
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0.5 0
+		}
+	}
+	geometry Box {
+		size 0.4 24 0.4
+	}
+}
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0.5 0
+		}
+	}
+	geometry Box {
+		size 1.5 0.4 24
+	}
+}
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+	}
+	geometry Box {
+		size 26 0.3 1
+	}
+}
+
+
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+		}
+	}
+	geometry Box {
+		size 0.1 0.9 26.1
+	}
+}
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+		}
+	}
+	geometry Box {
+		size 26.1 0.9 0.3
+	}
+}
+
+
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+	}
+	geometry Box {
+		size 0.9 0.3 26
+	}
+}
+#CONOS
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 0 0.4
+		}
+	}
+	geometry Cone {
+		height 40
+		bottomRadius 0.8
+		side TRUE
+		bottom TRUE
+	}
+}
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0.6 0.6 0.6
+		}
+	}
+	geometry Cone {
+		height 27
+		bottomRadius 1
+		side TRUE
+		bottom TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0.6 0.6 0
+		}
+	}
+	geometry Cone {
+		height 22
+		bottomRadius 1.3
+		side TRUE
+		bottom TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0.6 0 0
+		}
+	}
+	geometry Cone {
+		height 16
+		bottomRadius 1.8
+		side TRUE
+		bottom TRUE
+	}
+}
+
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0.6 0.6 0
+		}
+	}
+	geometry Cone {
+		height 32
+		bottomRadius 0.7
+		side TRUE
+		bottom TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0.6 0 0
+		}
+	}
+	geometry Cone {
+		height 35
+		bottomRadius 0.5
+		side TRUE
+		bottom TRUE
+	}
+}
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0.6 0.6 0
+		}
+	}
+	geometry Cone {
+		height 50
+		bottomRadius 0.1
+		side TRUE
+		bottom TRUE
+	}
+}
+
+
+
+
