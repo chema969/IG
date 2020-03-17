@@ -1,0 +1,7 @@
+Para hacer la estrella de ocho puntas dibujé dos cuadrados, uno de tamaño 4 y otro de tamaño 1 rotado 45 grados
+, Y luego el punto central, el cual está elevado. Para hacer la parte inferior hice lo mismo, pero girando todo
+45 grados y poniendo el punto central como negativo.
+
+
+Para hacer la estrella de puntas utilicé dos pentágonos, uno de cinco de radio y otro de 1. Por último, al no comprender
+como funcionaban las texturas, hice un indexedFaceSet por cada punta.s

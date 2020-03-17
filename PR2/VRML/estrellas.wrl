@@ -1,0 +1,267 @@
+#VRML V2.0 utf8
+Transform { 
+     translation 5.0 0.0 0.0
+	children[
+	Shape {
+		appearance Appearance { 
+			material Material { 
+			diffuseColor 1 0 0 
+		} 	
+		}
+
+
+	geometry
+	IndexedFaceSet {
+	solid FALSE
+		coord Coordinate {
+		point[
+		   0 2 0,
+		   4 0 0,
+		   1 0 1,
+			   0 0 4,
+		   -1 0 1,
+			   -4 0 0,
+		   -1 0 -1,
+		   0 0 -4,
+		   1 0 -1,
+		   0 -2 0,
+		   2.82842712475 0 2.82842712475,#10
+		   0 0 1,
+		   -2.82842712475 0 2.82842712475,
+		   -1 0 0,
+		   -2.82842712475 0 -2.82842712475,
+		   0 0 -1,
+		   2.82842712475 0 -2.82842712475,
+		   1 0 0
+		   ]
+		}
+		coordIndex [
+		 0,2,1,-1,
+		 0,3,2,-1,
+		 0,4,3,-1,
+		 0,5,4,-1,
+		 0,6,5,-1,
+		 0,7,6,-1,
+		 0,8,7,-1,
+		 0,1,8,-1,
+		 8,1,2,3,4,5,6,7,-1,
+		 9,10,11,-1,
+		 9,11,12,-1,
+		 9,12,13,-1,
+		 9,13,14,-1,
+		 9,14,15,-1,
+		 9,15,16,-1,
+		 9,16,17,-1,
+		 9,17,10,-1,
+		 15,14,13,12,11,10,17,16,-1
+		]
+	colorPerVertex FALSE
+				color Color {
+					color [
+						1 0 0,
+						1 1 0,
+						1 1 0,
+						1 0 1,
+						1 0 1,
+						0 1 0,
+						0 1 0,
+						1 0 0,
+						0 0 1,
+						1 0 0,
+						1 1 0,
+						1 1 0,
+						1 0 1,
+						1 0 1,
+						0 1 0,
+						0 1 0,
+						1 0 0,
+						0 0 1
+					]
+				}
+
+	}
+		
+	}
+	]
+	}
+	
+Transform { 
+     translation -5.0 0.0 0.0
+	children[
+	Shape {
+			appearance Appearance { 
+				material Material { 
+			} 
+			texture ImageTexture{
+				url "iron5.jpg"
+				}
+			}
+
+
+		geometry
+		IndexedFaceSet {
+		solid FALSE
+			coord Coordinate {
+			point[
+				0 2 0,
+				0 0 -4,
+				-4 0 -1,
+				-2 0 3,
+				2 0 3,
+				4 0 -1,
+				0 0 1,
+				1 0 0.3,
+				0.6 0 -0.8,
+				-0.6 0 -0.8,
+				-1 0 0.3		
+			   ]
+			}
+			coordIndex [
+			0,8,1,-1,
+			0,1,9,-1,
+			9,1,8,-1
+			]
+		}	
+	}
+	Shape {
+			appearance Appearance { 
+				material Material { 
+			} 
+			texture ImageTexture{
+				url "iron4.jpg"
+				}
+			}
+
+
+		geometry
+		IndexedFaceSet {
+		solid FALSE
+			coord Coordinate {
+			point[
+				0 2 0,
+				0 0 -4,
+				-4 0 -1,
+				-2 0 3,
+				2 0 3,
+				4 0 -1,
+				0 0 1,
+				1 0 0.3,
+				0.6 0 -0.8,
+				-0.6 0 -0.8,
+				-1 0 0.3		
+			   ]
+			}
+			coordIndex [
+			0,9,2,-1,
+			0,2,10,-1,
+			9,10,2,-1
+			]
+		}	
+	}
+	Shape {
+			appearance Appearance { 
+				material Material { 
+			} 
+			texture ImageTexture{
+				url "iron3.jpg"
+				}
+			}
+
+
+		geometry
+		IndexedFaceSet {
+		solid FALSE
+			coord Coordinate {
+			point[
+				0 2 0,
+				0 0 -4,
+				-4 0 -1,
+				-2 0 3,
+				2 0 3,
+				4 0 -1,
+				0 0 1,
+				1 0 0.3,
+				0.6 0 -0.8,
+				-0.6 0 -0.8,
+				-1 0 0.3		
+			   ]
+			}
+			coordIndex [
+			0,10,3,-1,
+			0,3,6,-1,
+			6,3,10,-1
+			]
+		}	
+	}
+	Shape {
+			appearance Appearance { 
+				material Material { 
+			} 
+			texture ImageTexture{
+				url "iron2.jpg"
+				}
+			}
+
+
+		geometry
+		IndexedFaceSet {
+		solid FALSE
+			coord Coordinate {
+			point[
+				0 2 0,
+				0 0 -4,
+				-4 0 -1,
+				-2 0 3,
+				2 0 3,
+				4 0 -1,
+				0 0 1,
+				1 0 0.3,
+				0.6 0 -0.8,
+				-0.6 0 -0.8,
+				-1 0 0.3		
+			   ]
+			}
+			coordIndex [
+			0,6,4,-1,
+			0,4,7,-1,
+			7,4,6,-1
+			]
+		}	
+	}
+	Shape {
+			appearance Appearance { 
+				material Material { 
+			} 
+			texture ImageTexture{
+				url "iron1.jpg"
+				}
+			}
+
+
+		geometry
+		IndexedFaceSet {
+		solid FALSE
+			coord Coordinate {
+			point[
+				0 2 0,
+				0 0 -4,
+				-4 0 -1,
+				-2 0 3,
+				2 0 3,
+				4 0 -1,
+				0 0 1,
+				1 0 0.3,
+				0.6 0 -0.8,
+				-0.6 0 -0.8,
+				-1 0 0.3		
+			   ]
+			}
+			coordIndex [
+			0,7,5,-1,
+			0,5,8,-1,
+			8,5,7,-1
+			]
+		}	
+	}
+	]
+	}

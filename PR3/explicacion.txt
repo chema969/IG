@@ -1,0 +1,6 @@
+Para conseguir la cabeza la he cogido de un modelo poligonal de smash Meele del capitán falcon sacada de la página web https://www.models-resource.com/. Luego, con blender he eliminado como he podido los vértices que no eran necesarios (los del cuerpo).
+
+
+Para crear la escena he utilizado una jerarquía de forma que el tronco superior tiene como hijos los antebrazos y a su vez el brazo, mientras que el tronco inferior las piernas. 
+
+Por último, la disposición de la pose es de uno de los brazos flexionado, mientras el otro está extendido, y está de rodillas posado frente a su pierna derecha.
