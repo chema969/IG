@@ -1,0 +1,7 @@
+Para esta practica, he intentado realizar un movimiento de puñetazo bajo. Sin embargo, 
+debido a varias limitaciones por el esqueleto básico, ha salido algo más parecido a 
+una reverencia que a un puñetazo. Para activar la animación, debes darle al cuadrado 
+rojo que se muestra en la esquina superior.
+
+Para realizar la practica, he ido mirando las distintas rotaciones y como mis articulaciones
+se movian a lo largo de estas rotaciones para hacer las interpolaciones
