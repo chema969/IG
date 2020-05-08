@@ -1,0 +1,868 @@
+#VRML V2.0 utf8
+
+Background {
+backUrl [ "2k_stars_milky_way.jpg" ]
+
+bottomUrl ["2k_stars_milky_way.jpg" ]
+
+frontUrl ["2k_stars_milky_way.jpg" ]
+
+leftUrl [ "2k_stars_milky_way.jpg" ]
+
+rightUrl [ "2k_stars_milky_way.jpg" ]
+
+topUrl ["2k_stars_milky_way.jpg" ] 
+}
+#SOL
+Group{
+	children[
+		DEF TSensor1 TouchSensor{},
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "sun.jpg"
+				}
+			}
+			geometry Sphere {
+				radius 12
+			}
+		}
+	]
+}
+
+DEF Mercurio Transform{
+	translation 18 0 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "mercury.png"
+				}
+			}	
+			geometry Sphere {
+				radius 1
+			}
+		}
+	]
+}
+
+
+DEF Venus Transform{
+	translation 28 0 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "venus.jpg"
+				}
+			}	
+			geometry Sphere {
+				radius 1.8
+			}
+		}
+	]
+}
+
+
+DEF Tierra Transform{
+	translation 42 0 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "earth.jpg"
+				}
+			}	
+			geometry Sphere {
+				radius 2.5
+			}
+		}
+		DEF Luna Transform{
+			translation 4.5 0 0
+			children[
+			Shape {
+				appearance Appearance {
+					material Material {
+					}
+					texture ImageTexture{
+						url "moon.png"
+					}
+				}	
+				geometry Sphere {
+					radius 0.6
+				}
+			}
+	]
+}
+
+	]
+}
+
+
+DEF Marte Transform{
+	translation 56 0 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "mars.png"
+				}
+			}	
+			geometry Sphere {
+				radius 1.6
+			}
+		}
+	]
+}
+
+
+DEF Jupiter Transform{
+	translation 80 0 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "jupiter.jpg"
+				}
+			}	
+			geometry Sphere {
+				radius 5.3
+			}
+		}
+		
+	]
+}
+
+
+
+DEF Saturno Transform{
+	translation 125 0 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "saturn.jpg"
+				}
+			}	
+			geometry Sphere {
+				radius 4.8
+			}
+		}
+		   Transform{
+				scale 0.08 0.08 0.08
+				rotation 1 0.3 0 3.14
+				translation 8 5 9
+				children[
+					Inline{
+						url "anillo.wrl"
+					}
+				]
+			}
+		]
+	}
+	
+DEF Urano Transform{
+	translation 160 0 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "uranus.jpg"
+				}
+			}	
+			geometry Sphere {
+				radius 3.5
+			}
+		}
+		]
+	}
+
+DEF Neptuno Transform{
+	translation 180 0 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "neptune.png"
+				}
+			}	
+			geometry Sphere {
+				radius 3.4
+			}
+		}
+		]
+	}
+
+
+DEF Pluton Transform{
+	translation 200 120 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				}
+				texture ImageTexture{
+					url "pluto.jpg"
+				}
+			}	
+			geometry Sphere {
+				radius 0.9
+			}
+		}
+		]
+	}	
+
+DEF AnyoMercurio TimeSensor{
+	cycleInterval 1
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF AnyoVenus TimeSensor{
+	cycleInterval 2.556
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF AnyoTierra TimeSensor{
+	cycleInterval 4.1477
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF AnyoMarte TimeSensor{
+	cycleInterval 7.8068
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF AnyoJupiter TimeSensor{
+	cycleInterval 41.4772
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF AnyoSaturno TimeSensor{
+	cycleInterval 122.3579
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF AnyoUrano TimeSensor{
+	cycleInterval 182.67
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF AnyoNeptuno TimeSensor{
+	cycleInterval 220.80
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF AnyoPluton TimeSensor{
+	cycleInterval 260.30
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+
+DEF DiaLuna TimeSensor{
+	cycleInterval 0.13
+	startTime 0.0
+	stopTime 0.0
+	loop TRUE
+}
+DEF Movimiento_mercurio PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]
+	keyValue[
+		18.0 0.0 0.0,
+		16.875 0.0 -6.6,
+		15.75 0.0 -13.2,
+		12.375 0.0 -17.6,
+		9.0 0.0 -19.8,
+		4.5 0.0 -21.56,
+		0.0 0.0 -22.0,
+		-4.5 0.0 -21.56,
+		-9.0 0.0 -19.8,
+		-12.375 0.0 -17.6,
+		-15.75 0.0 -13.2,
+		-16.875 0.0 -6.6,
+		-18.0 0.0 0.0,
+		-16.875 0.0 6.6,
+		-15.75 0.0 13.2,
+		-12.375 0.0 17.6,
+		-9.0 0.0 19.8,
+		-4.5 0.0 21.56,
+		0.0 0.0 22.0,
+		4.5 0.0 21.56,
+		9.0 0.0 19.8,
+		12.375 0.0 17.6,
+		15.75 0.0 13.2,
+		16.875 0.0 6.6,
+		18.0 0.0 0.0
+		]
+}
+
+DEF Movimiento_venus PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]	
+	keyValue[
+		28.0 0.0 0.0,
+		26.25 0.0 -9.3,
+		24.5 0.0 -18.6,
+		19.25 0.0 -24.8,
+		14.0 0.0 -27.9,
+		7.0 0.0 -30.380000000000003,
+		0.0 0.0 -31.0,
+		-7.0 0.0 -30.380000000000003,
+		-14.0 0.0 -27.9,
+		-19.25 0.0 -24.8,
+		-24.5 0.0 -18.6,
+		-26.25 0.0 -9.3,
+		-28.0 0.0 0.0,
+		-26.25 0.0 9.3,
+		-24.5 0.0 18.6,
+		-19.25 0.0 24.8,
+		-14.0 0.0 27.9,
+		-7.0 0.0 30.380000000000003,
+		0.0 0.0 31.0,
+		7.0 0.0 30.380000000000003,
+		14.0 0.0 27.9,
+		19.25 0.0 24.8,
+		24.5 0.0 18.6,
+		26.25 0.0 9.3,
+		28.0 0.0 0.0
+	]
+	}
+
+DEF Movimiento_tierra PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]
+	keyValue[
+		42.0 0.0 0.0,
+		39.375 0.0 -13.95,
+		36.75 0.0 -27.9,
+		28.875 0.0 -37.2,
+		21.0 0.0 -41.85,
+		10.5 0.0 -45.57000000000001,
+		0.0 0.0 -46.5,
+		-10.5 0.0 -45.57000000000001,
+		-21.0 0.0 -41.85,
+		-28.875 0.0 -37.2,
+		-36.75 0.0 -27.9,
+		-39.375 0.0 -13.95,
+		-42.0 0.0 0.0,
+		-39.375 0.0 13.95,
+		-36.75 0.0 27.9,
+		-28.875 0.0 37.2,
+		-21.0 0.0 41.85,
+		-10.5 0.0 45.57000000000001,
+		0.0 0.0 46.5,
+		10.5 0.0 45.57000000000001,
+		21.0 0.0 41.85,
+		28.875 0.0 37.2,
+		36.75 0.0 27.9,
+		39.375 0.0 13.95,
+		42.0 0.0 0.0
+	]
+	}
+	
+	
+DEF Movimiento_marte PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]	
+	keyValue[
+		56.0 0.0 0.0,
+		52.5 0.0 -18.6,
+		49.0 0.0 -37.2,
+		38.5 0.0 -49.6,
+		28.0 0.0 -55.8,
+		14.0 0.0 -60.760000000000005,
+		0.0 0.0 -62.0,
+		-14.0 0.0 -60.760000000000005,
+		-28.0 0.0 -55.8,
+		-38.5 0.0 -49.6,
+		-49.0 0.0 -37.2,
+		-52.5 0.0 -18.6,
+		-56.0 0.0 0.0,
+		-52.5 0.0 18.6,
+		-49.0 0.0 37.2,
+		-38.5 0.0 49.6,
+		-28.0 0.0 55.8,
+		-14.0 0.0 60.760000000000005,
+		0.0 0.0 62.0,
+		14.0 0.0 60.760000000000005,
+		28.0 0.0 55.8,
+		38.5 0.0 49.6,
+		49.0 0.0 37.2,
+		52.5 0.0 18.6,
+		56.0 0.0 0.0,
+	]
+	}
+
+DEF Movimiento_jupiter PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]	
+	keyValue[
+		80.0 0.0 0.0,
+		75.0 0.0 -26.570999999999998,
+		70.0 0.0 -53.141999999999996,
+		55.0 0.0 -70.856,
+		40.0 0.0 -79.713,
+		20.0 0.0 -86.7986,
+		0.0 0.0 -88.57,
+		-20.0 0.0 -86.7986,
+		-40.0 0.0 -79.713,
+		-55.0 0.0 -70.856,
+		-70.0 0.0 -53.141999999999996,
+		-75.0 0.0 -26.570999999999998,
+		-80.0 0.0 0.0,
+		-75.0 0.0 26.570999999999998,
+		-70.0 0.0 53.141999999999996,
+		-55.0 0.0 70.856,
+		-40.0 0.0 79.713,
+		-20.0 0.0 86.7986,
+		0.0 0.0 88.57,
+		20.0 0.0 86.7986,
+		40.0 0.0 79.713,
+		55.0 0.0 70.856,
+		70.0 0.0 53.141999999999996,
+		75.0 0.0 26.570999999999998,
+		80.0 0.0 0.0,
+	]
+	}
+	
+DEF Movimiento_saturno PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]	
+	keyValue[
+		125.0 0.0 0.0,
+		117.1875 0.0 -41.5176,
+		109.375 0.0 -83.0352,
+		85.9375 0.0 -110.7136,
+		62.5 0.0 -124.5528,
+		31.25 0.0 -135.62416000000002,
+		0.0 0.0 -138.392,
+		-31.25 0.0 -135.62416000000002,
+		-62.5 0.0 -124.5528,
+		-85.9375 0.0 -110.7136,
+		-109.375 0.0 -83.0352,
+		-117.1875 0.0 -41.5176,
+		-125.0 0.0 0.0,
+		-117.1875 0.0 41.5176,
+		-109.375 0.0 83.0352,
+		-85.9375 0.0 110.7136,
+		-62.5 0.0 124.5528,
+		-31.25 0.0 135.62416000000002,
+		0.0 0.0 138.392,
+		31.25 0.0 135.62416000000002,
+		62.5 0.0 124.5528,
+		85.9375 0.0 110.7136,
+		109.375 0.0 83.0352,
+		117.1875 0.0 41.5176,
+		125.0 0.0 0.0
+	]
+	}
+	
+	
+DEF Movimiento_urano PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]	
+	keyValue[
+		160.0 0.0 0.0,
+		150.0 0.0 -53.142599999999995,
+		140.0 0.0 -106.28519999999999,
+		110.0 0.0 -141.71359999999999,
+		80.0 0.0 -159.4278,
+		40.0 0.0 -173.59916,
+		0.0 0.0 -177.142,
+		-40.0 0.0 -173.59916,
+		-80.0 0.0 -159.4278,
+		-110.0 0.0 -141.71359999999999,
+		-140.0 0.0 -106.28519999999999,
+		-150.0 0.0 -53.142599999999995,
+		-160.0 0.0 0.0,
+		-150.0 0.0 53.142599999999995,
+		-140.0 0.0 106.28519999999999,
+		-110.0 0.0 141.71359999999999,
+		-80.0 0.0 159.4278,
+		-40.0 0.0 173.59916,
+		0.0 0.0 177.142,
+		40.0 0.0 173.59916,
+		80.0 0.0 159.4278,
+		110.0 0.0 141.71359999999999,
+		140.0 0.0 106.28519999999999,
+		150.0 0.0 53.142599999999995,
+		160.0 0.0 0.0,
+	]
+	}
+	
+DEF Movimiento_neptuno PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]	
+	keyValue[
+		180.0 0.0 0.0,
+		168.75 0.0 -59.785709999999995,
+		157.5 0.0 -119.57141999999999,
+		123.75 0.0 -159.42856,
+		90.0 0.0 -179.35712999999998,
+		45.0 0.0 -195.29998600000002,
+		0.0 0.0 -199.2857,
+		-45.0 0.0 -195.29998600000002,
+		-90.0 0.0 -179.35712999999998,
+		-123.75 0.0 -159.42856,
+		-157.5 0.0 -119.57141999999999,
+		-168.75 0.0 -59.785709999999995,
+		-180.0 0.0 0.0,
+		-168.75 0.0 59.785709999999995,
+		-157.5 0.0 119.57141999999999,
+		-123.75 0.0 159.42856,
+		-90.0 0.0 179.35712999999998,
+		-45.0 0.0 195.29998600000002,
+		0.0 0.0 199.2857,
+		45.0 0.0 195.29998600000002,
+		90.0 0.0 179.35712999999998,
+		123.75 0.0 159.42856,
+		157.5 0.0 119.57141999999999,
+		168.75 0.0 59.785709999999995,
+		180.0 0.0 0.0,
+	]
+	}
+
+DEF Movimiento_pluton PositionInterpolator{
+	key[0.0,
+	0.0416,
+	0.0833,
+	0.125,
+	0.1666,
+	0.2083,
+	0.25,
+	0.29166,
+	0.3333,
+	0.375,
+	0.4166,
+	0.4583,
+	0.5,
+	0.5416,
+	0.583,
+	0.625,
+	0.6666,
+	0.7083,
+	0.75,
+	0.7916,
+	0.833,
+	0.875,
+	0.916,
+	0.9583,
+	1.0]	
+	keyValue[
+		200.0 120.0 0.0,
+		187.5 100.0 -66.42855,
+		175.0 80.0 -132.8571,
+		137.5 60.0 -177.14280000000002,
+		100.0 40.0 -199.28565,
+		50.0 20.0 -216.99993000000003,
+		0.0 0.0 -221.42850000000004,
+		-50.0 -20.0 -216.99993000000003,
+		-100.0 -40.0 -199.28565,
+		-137.5 -60.0 -177.14280000000002,
+		-175.0 -80.0 -132.8571,
+		-187.5 -100.0 -66.42855,
+		-200.0 -120.0 0.0,
+		-187.5 -100.0 66.42855,
+		-175.0 -80.0 132.8571,
+		-137.5 -60.0 177.14280000000002,
+		-100.0 -40.0 199.28565,
+		-50.0 -20.0 216.99993000000003,
+		0.0 0.0 221.42850000000004,
+		50.0 20.0 216.99993000000003,
+		100.0 40.0 199.28565,
+		137.5 60.0 177.14280000000002,
+		175.0 80.0 132.8571,
+		187.5 100.0 66.42855,
+		200.0 120.0 0.0,
+	]
+	}
+
+DEF Movimiento_luna PositionInterpolator{
+	key[0.0,
+	0.08333333333333333,
+	0.16666666666666666,
+	0.25,
+	0.3333333333333333,
+	0.4166666666666667,
+	0.5,
+	0.5833333333333334,
+	0.6666666666666666,
+	0.75,
+	0.8333333333333334,
+	0.9166666666666666,
+	1.0]
+	keyValue[
+	4.5 0 0,
+	3.7 0 -2.5,
+	2.5 0 -3.7,
+	0 0 -4.5,
+	-2.5 0 -3.7,
+	-3.7 0 -2.5,
+	-4.5 0 0,
+	-3.7 0 2.5,	
+	-2.5 0 3.7,
+	0 0 4.5,
+	2.5 0 3.7,
+	3.7 0 2.5,
+	4.5 0 0
+	]
+	}
+ROUTE TSensor1.touchTime TO AnyoMercurio.startTime
+ROUTE TSensor1.touchTime TO AnyoVenus.startTime
+ROUTE TSensor1.touchTime TO AnyoTierra.startTime
+ROUTE TSensor1.touchTime TO AnyoMarte.startTime
+ROUTE TSensor1.touchTime TO AnyoJupiter.startTime
+ROUTE TSensor1.touchTime TO AnyoSaturno.startTime
+ROUTE TSensor1.touchTime TO AnyoUrano.startTime
+ROUTE TSensor1.touchTime TO AnyoNeptuno.startTime
+ROUTE TSensor1.touchTime TO AnyoPluton.startTime
+ROUTE TSensor1.touchTime TO DiaLuna.startTime
+
+ROUTE DiaLuna.fraction_changed TO Movimiento_luna.set_fraction
+ROUTE Movimiento_luna.value_changed TO Luna.set_translation
+
+ROUTE AnyoVenus.fraction_changed TO Movimiento_venus.set_fraction
+ROUTE Movimiento_venus.value_changed TO Venus.set_translation
+
+ROUTE AnyoMercurio.fraction_changed TO Movimiento_mercurio.set_fraction
+ROUTE Movimiento_mercurio.value_changed TO Mercurio.set_translation
+
+ROUTE AnyoTierra.fraction_changed TO Movimiento_tierra.set_fraction
+ROUTE Movimiento_tierra.value_changed TO Tierra.set_translation
+
+ROUTE AnyoMarte.fraction_changed TO Movimiento_marte.set_fraction
+ROUTE Movimiento_marte.value_changed TO Marte.set_translation
+
+ROUTE AnyoJupiter.fraction_changed TO Movimiento_jupiter.set_fraction
+ROUTE Movimiento_jupiter.value_changed TO Jupiter.set_translation
+
+ROUTE AnyoSaturno.fraction_changed TO Movimiento_saturno.set_fraction
+ROUTE Movimiento_saturno.value_changed TO Saturno.set_translation
+
+ROUTE AnyoUrano.fraction_changed TO Movimiento_urano.set_fraction
+ROUTE Movimiento_urano.value_changed TO Urano.set_translation
+
+ROUTE AnyoNeptuno.fraction_changed TO Movimiento_neptuno.set_fraction
+ROUTE Movimiento_neptuno.value_changed TO Neptuno.set_translation
+
+ROUTE AnyoPluton.fraction_changed TO Movimiento_pluton.set_fraction
+ROUTE Movimiento_pluton.value_changed TO Pluton.set_translation

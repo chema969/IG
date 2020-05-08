@@ -1,0 +1,15 @@
+Para la realización de esta práctica he utilizado algo de información sobre los planetas sacadas tanto de imagenes
+como de paginas que mostraban la escala de los planetas y la duracion de la rotación. Debido a la diferencia entre tamaños de planetas
+he escalado mucho tanto el sol como alguno de los planetas más grandes como Júpiter o saturno, además del sol. 
+
+Además de esto he escalado el tiempo de rotación. Utilizando como escala el año de mercurio, siendo este un segundo, he ido calculando 
+el tiempo de traslación en escala de los distintos planetas, siendo el correcto en todos los planetas; menos en Urano, Neptuno y Plutón,
+los cuales he acelerado para evitar que parecierán muy estáticos; y la luna, la cual he desacelerado.
+
+Para las figuras he utilizado esferas y trasladado. Además de esto, he utilizado como texturas la superficie de cada uno de los planetas.
+También he añadido el anillo de Saturno, realizado en Blender y exportado en vrml, tambien con sus propias texturas. Por último, tambien he
+aññadido como fondo una imagen de la via lactea para crear ambiente. 
+
+Por último, para crear las orbitas he escalado una orbita elíptica a lo largo de las distancias de los planetas. Para ello he creado una orbita
+elíptica a lo largo de un folio y he utilizado un script de Python para crear las extrapolaciones. La orbita de Plutón, debito a que no está en el
+mismo eje Y que el resto, se mueve además de -120 a 120, mientras que el resto de orbitas giran alrededor del sol en el mismo eje Y.
