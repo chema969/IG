@@ -1,0 +1,2 @@
+Para la realización de este trabajo me he basado en el ejemplo presentado en moodle. Para la creación de los ejes he utilizado el tamaño del glOrtho, así se mostrará a lo largo de toda la pantalla.
+He usado la función pow de la libreria math.h de c para obtener x elevado a z. En caso de llegar al límite empieza de nuevo. Si encuentra una asintota, osea, cuando z es negativo y x es 0, añade otra vez el valor de velocidad.
